@@ -2,8 +2,13 @@
   "name": "weather",
   "version": "0.1.0",
   "private": true,
+  "author": "Valeria Kozhevnikova",
   "dependencies": {
+    "@babel/parser": "^7.4.5",
+    "bootstrap": "^4.3.1",
+    "bootswatch": "^4.3.1",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
@@ -27,5 +32,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1"
   }
 }
